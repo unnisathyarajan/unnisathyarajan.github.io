@@ -2,7 +2,7 @@
 title: "Run Claude Code with OpenRouter Free Models"
 description: "Configure Claude Code to use OpenRouter as the Anthropic-compatible API endpoint, including setup steps, model configuration, common pitfalls, and debugging tips."
 date: 2026-05-12
-categories: [AI, DevOps]
+categories: [AI]
 tags: [claude-code, openrouter, ai-coding, devops, api-configuration]
 ---
 
