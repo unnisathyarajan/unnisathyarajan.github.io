@@ -101,7 +101,7 @@ sysctl -p
 From the client, ping `8.8.8.8`, then verify traffic on the server:
 
 ```bash
-tcpdump -envi wg0 host 8.8.8.8
+ tcpdump -n -i any 'udp dst port 51820'
 ```
 
 ## Run WireGuard with systemd
